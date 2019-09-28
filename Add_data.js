@@ -14,8 +14,12 @@ var DATETIMELOCATION = [0,2];
 var exclude_these_sheets_from_dataStamping = ['instructions', 'sugg']
 /* This does not work as needed, because it ignores operation on entire ranges. 
 Bellow I suggest function that can do something about it:
-e.range - https://developers.google.com/apps-script/guides/triggers/events
+e.range - https://developers.google.com/apps-script/guides/triggers/events, https://developers.google.com/apps-script/reference/spreadsheet/range
 getActiveRangeList() - https://developers.google.com/apps-script/reference/spreadsheet/sheet.html#getActiveRangeList()
+https://stackoverflow.com/questions/34659118/google-sheets-script-select-multiple-a1-notation-range
+https://towardsdatascience.com/google-sheet-data-warehouse-c22bb2cce4b0
+https://developers.google.com/apps-script/reference/spreadsheet/data-validation-builder
+Google Form
 */
 function onEdit(e) 
 {
