@@ -1,5 +1,5 @@
 /*
-Creates a Date Stamp if a column is edited. Removes Date Stamp, if cell value is removed
+Script for Google Sheet. Creates a Date Stamp if a column is edited. Removes Date Stamp, if cell value is removed
 Based on:
 https://yagisanatode.com/2018/02/21/add-the-current-date-to-a-sheet-when-data-is-added-so-that-the-date-does-not-changestatic-google-sheets/
 */
