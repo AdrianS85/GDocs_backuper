@@ -155,8 +155,8 @@ def send_message(service, user_id, message):
 
 
 def create_message(
-    sender: str = "adrianstankiewicz85@gmail.com",
-    to: str = "adrianstankiewicz85@gmail.com",
+    sender: str = "igab.pas@gmail.com",
+    to: str = "adrianstankiewicz85@gmail.com, igab.pas@gmail.com",
     subject: str = "GDocs_backuper reporting",
     message_text: str = "",
 ):
@@ -270,7 +270,7 @@ def write_new_files_of_interest_file(
 
 
 def wait_report_back_and_loop(
-    how_frequently_to_check_for_updates_: str,
+    how_frequently_to_check_for_updates_: int,
     loop_nb_: int,
     mail_=None,
 ):
